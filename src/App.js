@@ -40,7 +40,7 @@ const App = () => {
           {categories.map(({id, title, imageUrl}) => {
             return (
               <CategoryItem
-                id={id}
+                key={id}
                 title={title}
                 imageUrl={imageUrl}
               />
